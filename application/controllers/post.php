@@ -60,6 +60,7 @@ class Post extends Frontend_Controller {
 			
 							  $msg = 'Your post has been successfuly posted, wait for admin Verification';
 							  $this->session->set_flashdata('msg', $msg);
+							  
 							  redirect('home');	
 						 
 						}else{
