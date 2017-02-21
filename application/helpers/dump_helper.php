@@ -1,11 +1,11 @@
 <?php
-
-
 /**
  * Dump helper. Functions to dump variables to the screen, in a nicley formatted manner.
- * @author Joost van Veen
+ * @author Umar Abdulrahim
+ * @email oruma02@yahoo.com
  * @version 1.0
  */
+
 if (!function_exists('dump')) {
 		function dump ($var, $label = 'Dump', $echo = TRUE)
 		{

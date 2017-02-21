@@ -16,21 +16,19 @@ class Home extends Frontend_Controller {
    */
 	public function index()
 	{   
-	     //dump($this->session->all_userdata());
+	     
 	    $data['title'] = 'Notice Board';
 		$data['main'] = 'public/home';
 		$data['posts'] = $this->post_model->get_post_with_users();
 		$data['slide_post'] = $this->post_model->get_featured_post();
 		$data['navlist'] = $this->category_model->get_category_nav();
 		$data['sidebar'] = $this->post_model->resently_added_post();
-		//dump($data['slide_post']);
-		//dump($this->session->userdata('name'));
 		$this->load->view('template', $data);
 		
 	}
 	
   /**
-   * this post method displays a post by its id
+   * this post method gets a post by its id
    *
    */
     public function post($id)
@@ -56,7 +54,6 @@ class Home extends Frontend_Controller {
 	{   
 	    //getting the category id from the url
 		$id = $this->uri->segment(3);
-		//dump($id);
 		
 		$data['title'] = 'Category | Notice board';
 		$data['main']  = 'public/category';

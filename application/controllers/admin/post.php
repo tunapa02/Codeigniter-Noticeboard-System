@@ -22,7 +22,6 @@ class Post extends Admin_Controller {
 		$data['main']  = 'admin/post/announcemnt';
 		$data['count_post']  = $this->post_model->count_inactive_post();
 		$data['posts'] = $this->post_model->get_all_post_admin();
-		//dump($data['posts']);
 		
 		$this->load->view('admin/template_admin', $data);
 	}
@@ -89,7 +88,6 @@ class Post extends Admin_Controller {
 	  
 	  $data['posts'] = $this->post_model->get_post_by_id_edit($id);
 	  
-	  //dump($data['posts']);
 	  $data['title'] = 'Edit Post | Admin Panel';
 	  $data['main']  = 'admin/post/edit';
 	  $data['navlist'] = $this->category_model->get_category_nav();
@@ -171,7 +169,6 @@ class Post extends Admin_Controller {
 		 if($activate){
 			echo "activate"; 
 		 }
-	     //redirect('admin/post/inactive_post');
 	   
 	} 
 	

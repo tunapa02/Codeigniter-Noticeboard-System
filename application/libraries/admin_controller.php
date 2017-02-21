@@ -7,10 +7,6 @@ class Admin_controller extends MY_Controller {
    	public function __construct(){
 		  parent::__construct();
 		  
-		  //loading profiler for debuging
-		 // $this->output->enable_profiler(true);
-		 
-          
 		  //this blocks of code redireect an unathorised
 		  // entry into the admin area
 		  

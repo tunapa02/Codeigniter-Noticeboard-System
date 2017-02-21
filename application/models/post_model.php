@@ -81,7 +81,7 @@ class Post_model extends CI_Model {
    *@
    **/
 	 public function get_featured_post()
-	 {      $data = array();
+	 {     $data = array();
 	       $this->db->select('post_id, post_title, post_text');
 		   $this->db->where('status', 'active');
 		   $this->db->order_by('created', 'desc');
@@ -155,7 +155,7 @@ class Post_model extends CI_Model {
 		    $insert = $this->db->insert('post', $data);
 			return $insert;
 	   
-	   }//end of upload method
+	   }//end of post method
 	   
 	   
 	/*@ this method post the admin announccement into the database
@@ -186,7 +186,7 @@ class Post_model extends CI_Model {
 		    $insert = $this->db->insert('post', $data);
 			return $insert;
 	   
-	   }//end of upload method
+	   }//end of end of admin_post method
 	 
 	 
 	 
@@ -328,7 +328,6 @@ class Post_model extends CI_Model {
 	  public function count_inactive_post()
 	 {
 	    $data = array();
-		
 		$this->db->select('post.*, users.name, category.category_name ');
 		$this->db->from('post');
 		$this->db->join('users', 'post.user_id=users.user_id');
@@ -375,8 +374,6 @@ class Post_model extends CI_Model {
 	public function admin_update()
 	{
 	     
-		//getting the logged in users id
-		  // $id = $this->session->userdata('user_id'); 
 			
 		  //converting the inputs into a variable
 			  $post_title	   =	$this->input->post('title');
@@ -412,9 +409,9 @@ class Post_model extends CI_Model {
 		 $this->db->where('post_id', $post_id);
 		 $insert = $this->db->update('post', $data);
 		 return $insert;
-		 
-        
+    
 	}
+	
 	
 	/**
 	 * this method gets the count of all available active post
@@ -442,7 +439,6 @@ class Post_model extends CI_Model {
 	{
 	   $this->db->where('post_id', $id);
 	   $this->db->limit(1);
-	   
 	   $delete = $this->db->delete('post'); 	
        return $delete;
 	}

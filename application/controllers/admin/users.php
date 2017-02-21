@@ -9,7 +9,10 @@ class Users extends Admin_Controller {
 	
 	}
 
-
+    /*
+	 * this method displays all users for the admin
+	 *
+	 */
 	public function index()
 	{   
 	    

@@ -11,6 +11,7 @@
     <script src="<?php echo site_url('assets/js/jquery.js'); ?>"></script>
     <script src="<?php echo site_url('assets/js/bootstrap.js'); ?>"></script>
     <script src="<?php echo site_url('assets/js/chart.js'); ?>"></script>
+    <script src="<?php echo site_url('assets/js/chart.js'); ?>"></script>
     <script>
     $(document).ready(function() {
 		
@@ -60,5 +61,32 @@
 	
 	
 </script>
+<script>
+       
+	   var bardata = {
+		     
+			 labels : ["january", "febuery", "march "],
+			 dataset : [
+			 
+			          {
+					     fillColor: "#ffffee",
+						 strokeColor : "#000",
+						 data: [500,230,700]  
+					  
+					  }
+					  
+			 
+			 
+			 ]  
+		   
+		   
+		   
+		   };
+		   
+		   var siteChart = document.getElementById('siteChart').getContext('2d');
+	       new Chart(siteChart).Bar(bardata);
+	   
+    
+    </script>
   </body>
 </html>

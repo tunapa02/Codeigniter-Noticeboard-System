@@ -201,21 +201,6 @@ class Auth_model extends CI_Model {
 	
 	
 	
-	/**
-	 * this methods distroys the users session data
-	 
-	 
-	public function logout()
-	{
-		 $data = array('loggedin' => false );
-         $sess = (bool)$this->session->set_userdata($data);
-		 return $sess;
-	}
-	*/
-	
-	
-	
-	
     /**
 	 * this methods distroys the users session data
 	 */

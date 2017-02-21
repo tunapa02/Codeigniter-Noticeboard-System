@@ -187,7 +187,7 @@ class Auth extends Frontend_Controller {
 	
 	
 	/**
-	 * this login method process the user login details 
+	 * this login method process the admin login details 
 	 *
 	 */
 	public function login_admin()

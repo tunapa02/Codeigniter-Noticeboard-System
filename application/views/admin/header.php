@@ -19,6 +19,9 @@
     <!-- Custom styles for this template -->
     <link href="<?php echo site_url('assets/css/app.css'); ?>" rel="stylesheet">
     
+   
+    
+    
     <style>
 	  
 	  .nav > li {

@@ -54,7 +54,7 @@
 
                   <div class="chart">
                     <!-- Sales Chart Canvas -->
-                    <canvas id="salesChart" style="height: 180px;"></canvas>
+                    <canvas id="siteChart" style="height: 180px;"></canvas>
                   </div>
                   <!-- /.chart-responsive -->
                 </div>

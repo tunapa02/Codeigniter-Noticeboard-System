@@ -10,9 +10,12 @@ class Dashboard extends Admin_Controller {
 	}
 
 
+    /*
+	 * this method displays all the admin dashboard items 
+	 *
+	 */
 	public function index()
 	{   
-	    //dump($this->session->all_userdata());
 	    $data['title'] = 'Dashboard | Admin';
 		$data['main']  = 'admin/dashboard';
 		$data['users'] = $this->user_model->get_all_users();

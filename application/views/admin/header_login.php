@@ -18,6 +18,9 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo site_url('assets/css/login.css'); ?>" rel="stylesheet">
+    
+     <!-- chart.js javascript file -->
+    <script src="<?php echo site_url('assets/js/chart.js');?>"></script>
   </head>
   
    <body>

@@ -25,7 +25,6 @@ class Post extends Frontend_Controller {
 	    $data['title'] = 'Add Annoucment |Notice Board';
 		$data['main'] = 'public/add_post';
 		$data['navlist'] = $this->category_model->get_category_nav();
-		//dump($data['navlist']);
 		$this->load->view('auth/template_register', $data);
 	}
 	
@@ -35,6 +34,7 @@ class Post extends Frontend_Controller {
 	
 	/**
 	 * this post method process the users post 
+	 * and set it for verification
 	 *
 	 */
 	 public function add_post(){
