@@ -10,6 +10,11 @@ class Category extends Admin_Controller {
 	}
 
 
+
+    /*
+	 * this method displays the all categories for the admin
+	 *
+	 */
 	public function index()
 	{   
 	    
