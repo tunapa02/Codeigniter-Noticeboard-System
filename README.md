@@ -20,14 +20,14 @@ The notice board system has two user areas the backend for the Admin and Fronten
 #### View
 All the views are named as their functionality. the header and footer view contain the header and footer of every pages and necessary links on stylesheets and scripts.
 
-#### Controllers
+## Controllers
 
-## public controllers
+### public controllers
 1. Auth : This deals with the authentication of users on the platform.
 2. post : This deals with all post in the public area.
 3. home : This displays the homepage of the noticeboard and its post.
 
-## Admin controllers
+### Admin controllers
 1. dashboard : this displays the admins dashboard
 2. category : This displays the categories
 3. users : This displays the users
