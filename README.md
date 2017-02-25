@@ -43,8 +43,10 @@ This is the deckstop view for the home page
 
 This is the mobile view for the home page
 
+![myimage-alt-tag](assets/img/no5.png
+)
 
-
+This is the registration view
 
 
 
