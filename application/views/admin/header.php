@@ -16,6 +16,9 @@
     <!-- Font awesome core CSS -->
     <link href="<?php echo site_url('assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet">  
 
+     <link href="<?php echo site_url('assets/css/animate.css'); ?>" rel="stylesheet">
+
+
     <!-- Custom styles for this template -->
     <link href="<?php echo site_url('assets/css/app.css'); ?>" rel="stylesheet">
     

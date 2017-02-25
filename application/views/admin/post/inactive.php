@@ -9,7 +9,7 @@
                    <th>Delete</th>
                  </tr>
                  <?php foreach($inactive_post as $post): ?>
-                  <tr>
+                  <tr id="in_post<?php echo $post['post_id']; ?>" class="animated">
                     <td><a href=""><?php echo $post['post_title']; ?></a></td>  
                     <td><?php echo $post['category_name']; ?></td>  
                     <td><?php echo $post['name']; ?></td>
@@ -22,7 +22,7 @@
                   </tr>
                  <?php endforeach; ?> 
               </table>
-              <a href="" class="btn btn-default">View all</a>
+              
               
              
          </div>  

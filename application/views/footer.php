@@ -40,13 +40,9 @@
 					   
 			    if(data =="activate"){
 					$("#ativemode"+id).html('activated');
+					$("#in_post"+id).addClass('bounceOutLeft').fadeOut();
 				}
-				  //$('#change_state').fadeOut( function(){
 				  
-					      //$('#success').fadeIn();
-					  
-				  
-			  
 			      },
 					
 				
