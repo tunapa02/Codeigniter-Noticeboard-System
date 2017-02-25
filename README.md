@@ -38,8 +38,11 @@ All the views are named as their functionality. the header and footer view conta
 )
 This is the deckstop view for the home page
 
-![myimage-alt-tag](assets/img/no1.png
+![myimage-alt-tag](assets/img/no1.png      
+)          ![myimage-alt-tag](assets/img/no5.png
 )
+
+This is the registration view
 
 This is the mobile view for the home page
 
