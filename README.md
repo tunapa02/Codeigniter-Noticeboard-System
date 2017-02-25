@@ -33,6 +33,8 @@ All the views are named as their functionality. the header and footer view conta
 3. users : This displays the users
 4. post : This displays the post 
 
+### Screenshort
+![myimage-alt-tag](screenshot.png)
 
 
 
