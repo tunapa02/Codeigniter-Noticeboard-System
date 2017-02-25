@@ -36,7 +36,11 @@ All the views are named as their functionality. the header and footer view conta
 ### Screenshort
 ![myimage-alt-tag](assets/img/no6.png
 )
+This is the deckstop view for the home page
 
+![myimage-alt-tag](assets/img/no1.png
+)
+This is the mobile view for the home page
 
 
 
