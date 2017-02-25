@@ -34,7 +34,8 @@ All the views are named as their functionality. the header and footer view conta
 4. post : This displays the post 
 
 ### Screenshort
-![myimage-alt-tag](screenshot.png)
+![myimage-alt-tag](assets/img/logo.png
+)
 
 
 
