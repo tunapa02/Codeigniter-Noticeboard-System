@@ -40,16 +40,12 @@ This is the deckstop view for the home page
 
 ![myimage-alt-tag](assets/img/no1.png      
 )          ![myimage-alt-tag](assets/img/no5.png
+)     ![myimage-alt-tag](assets/img/no2.png
 )
 
-This is the registration view
 
-This is the mobile view for the home page
 
-![myimage-alt-tag](assets/img/no5.png
-)
 
-This is the registration view
 
 
 
