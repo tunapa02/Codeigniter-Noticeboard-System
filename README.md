@@ -40,6 +40,7 @@ This is the deckstop view for the home page
 
 ![myimage-alt-tag](assets/img/no1.png
 )
+
 This is the mobile view for the home page
 
 
