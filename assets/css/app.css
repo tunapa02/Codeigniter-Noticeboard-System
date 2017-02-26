@@ -14,6 +14,11 @@ body{
 }
 
 
+.navbar ul {
+    
+    text-align: center;
+}
+
 .navbar.white .navbar-header .navbar-toggle {
     margin-top: 17px;
 }
