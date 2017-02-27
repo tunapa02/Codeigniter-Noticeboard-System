@@ -30,16 +30,8 @@
        <div class="container">
            <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/img/logo.png" class="logo img-responsive"></a>
            <ul> 
-        <li>
-          <?php
-		  if($this->session->userdata('loggedin') === false){
-			  
-		   echo anchor('auth', 'Login', 'class="btn btn-primary text-white"'); 
-		  }else{
-			   echo anchor('auth/logout', 'Logout', 'class="btn btn-primary text-white"'); 
-			  }
-		   ?>
-          </li>
+         <li>
+        <?php echo anchor('auth', 'Login', 'class="btn btn-primary text-white"'); ?></li>
         </ul>
        </div>
     </header> <!-- header ends here --> 
